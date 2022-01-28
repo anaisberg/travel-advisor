@@ -1,6 +1,6 @@
 import { alpha, makeStyles } from '@material-ui/core/styles'
 
-export default makeStyles((theme) => ({
+const useStyles = makeStyles((theme) => ({
   title: {
     display: 'none',
     [theme.breakpoints.up('sm')]: {
@@ -40,3 +40,5 @@ export default makeStyles((theme) => ({
     }
   }
 }))
+
+export default useStyles

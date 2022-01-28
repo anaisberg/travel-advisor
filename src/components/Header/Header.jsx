@@ -3,10 +3,10 @@ import { Autocomplete } from '@react-google-maps/api'
 import { AppBar, Toolbar, Typography, InputBase, Box } from '@material-ui/core'
 import SearchIcon from '@material-ui/icons/Search'
 
-import makeStyles from './styles.js'
+import useStyles from './styles.js'
 
 const Header = () => {
-  const classes = makeStyles()
+  const classes = useStyles()
 
   return (
     <AppBar position="static">
